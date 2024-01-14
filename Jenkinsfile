@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('development'){
             steps{
-                sh 'npm run build'
+                sh 'continoue tomorrow'
             }
         }
         stage('testing'){
