@@ -1,9 +1,12 @@
 pipeline{
     agent any
+    tools{
+        node any
+    }
     stages{
         stage('development'){
             steps{
-                sh 'node -v'
+                sh 'npm run build'
             }
         }
         stage('testing'){
