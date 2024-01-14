@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('development'){
             steps{
-                sh 'continoue tomorrow'
+                sh 'echo "Start from tomorrow"'
             }
         }
         stage('testing'){
